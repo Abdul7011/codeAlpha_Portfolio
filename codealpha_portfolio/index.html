@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rahman | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"> portfolio<span>.</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Abdul Rahman</h1>
+            <h3>And I'm a <span class="typing">Web Developer</span></h3>
+            <p>HTML, CSS, JS se clean aur responsive websites banata hoon. Abhi learning phase mein hoon but projects banana pasand hai.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <!-- Photo ka naam ye rakh: abdul-photo.jpg -->
+            <img src="https://i.postimg.cc/JzLqQTZR/abdul-com2.jpg" alt="Abdul Rahman">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <p>Main Delhi se ek self-taught developer hoon. Mera focus simple, fast, aur user-friendly websites banane par hai. Roz kuch naya seekhta hoon aur code karta hoon.</p>
+            <a href="#projects" class="btn">My Projects</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML5</h3>
+                <div class="progress-bar"><span style="width: 90%"></span></div>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS3</h3>
+                <div class="progress-bar"><span style="width: 85%"></span></div>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <div class="progress-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-git'></i>
+                <h3>Git & GitHub</h3>
+                <div class="progress-bar"><span style="width: 75%"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="https://i.postimg.cc/9fQ8Xy8x/project1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Calculator App</h4>
+                    <p>JS se bana basic calculator with dark mode</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="https://i.postimg.cc/9fQ8Xy8x/project1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Todo List</h4>
+                    <p>LocalStorage use karke tasks save hote hain</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="https://i.postimg.cc/9fQ8Xy8x/project1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Landing Page</h4>
+                    <p>Responsive design with smooth animations</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright © 2026 by Abdul Rahman | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
